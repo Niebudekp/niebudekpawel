@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Permissions-Policy" content="" />
+    <title>Paweł Niebudek || Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><span>N</span>iebudek.</div>
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+      <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+    <!-- home section     -->
+    <section id="home" class="home">
+      <div class="home-content">
+        <h1>Hi! I'm Paul Niebudek</h1>
+        <div class="change-text">
+          <h3>And I'm</h3>
+          <h3>
+            <span class="word">Fronted&nbsp;Developer</span>
+            <span class="word">React&nbsp;Frontend&nbsp;Engineer</span>
+            <span class="word">JavaScript&nbsp;Developer</span>
+          </h3>
+        </div>
+
+        <div class="info-box"></div>
+        <div class="btn-box">
+          <a href="CV_Paweł_Niebudek (1) (2).pdf" id="downloadCv" class="btn">Download CV</a>
+          <a href="https://github.com/Niebudekp" id="btnGithub" class="btn"
+            >GitHub!</a
+          >
+        </div>
+      </div>
+      <div class="home-image">
+        <div class="img-box">
+          <img src="images/img-box.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+    <section id="about" class="about">
+      <div class="about-content">
+        <span>Let me introduce myself</span>
+        <div>
+          <h2>About me</h2>
+          <h3>My path to programming</h3>
+          <p>
+           My passion for technology began while studying at an IT technical school, where I encountered IT for the first time. From February 2023 to June 2023, I was a student of the Devs-Mentoring program, where I constantly developed my front-end development skills. Now I am a student from October 2023 in the field of Data Engineering
+          </p>
+          <h3>Skills and Experience</h3>
+          <p>
+            I specialize in technologies such as HTML, CSS, JavaScript, TypeScript, and frameworks like React.js. I gain practical experience by working on my own projects, which focus on creating responsive and user-friendly websites and web applications.
+          </p>
+          <h3>Mentoring and Development</h3>
+          <p>
+I have met with a mentor regularly once a week on Tuesdays since February 2023 to discuss progress, challenges and best practices, as well as conduct a code review. These meetings were an invaluable source of knowledge and inspiration for me, thanks to which I constantly developed and improved. At this point, I am developing further during my studies, where I am teaching new technologies, systems and databases.          </p>
+          <h3>My Future Plans</h3>
+          <p>
+            Since October, he has been continuing his studies in part-time studies in the field of Data Engineering. I am sure that this decision will allow me to expand my competences and open new opportunities in my programming career.
+          </p>
+        </div>
+      <div class="btn-box">
+        <a href="CV_Paweł_Niebudek (1) (2).pdf" class="btn">Read More</a>
+      </div>
+    </section>
+    <!-- Portfolio section -->
+    <section id="portfolio" class="portfolio">
+      <div class="main-text">
+        <span>What I will do for you</span>
+        <h2>Latest Project</h2>
+      </div>
+      <div class="container">
+        <div class="fillter-buttons">
+          <button class="btn" data-filter="all">All</button>
+          <button class="btn" data-filter=".javaScript">JavaScript</button>
+          <button class="btn" data-filter=".react">React</button>
+          <button class="btn" data-filter=".type">Type Script</button>
+        </div>
+
+        <div class="portfolio-gallery">
+          <div class="port-box mix javaScript">
+            <div class="port-image">
+              <img src="images/machine.png" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>
+                Automatic pallet handling system
+              </h3>
+              <p>
+                Simulates an automatic pallet handling system, which can be
+                useful for modeling and testing warehouse logistics or a
+                production process.
+              </p>
+              <div class="button-container">
+                <a href="https://github.com/Niebudekp/Interface-for-a-factory-to-handle-pallets-Final"><i class="bx bx-link-external"></i></a>
+                <a href="https://niebudekp.github.io/Interface-for-a-factory-to-handle-pallets-Final/" class="demo-button">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="port-box mix javaScript">
+            <div class="port-image">
+              <img src="images/calendar.png" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Task management app</h3>
+              <p>
+                Task management application that allows the user to add, view
+                and delete tasks on specific days.
+              </p>
+              <div class="button-container">
+                <a href="https://github.com/Niebudekp/Calendar-final"><i class="bx bx-link-external"></i></a>
+                <a href="https://niebudekp.github.io/Calendar-final/" class="demo-button">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="port-box mix javaScript">
+            <div class="port-image">
+              <img src="images/Password.png" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Password Generator</h3>
+              <p>
+                The program is a simple implementation of a password generator
+                in JavaScript that uses random characters defined in the
+                CHAR_SET constant to generate a password based on user
+                preferences
+              </p>
+              <div class="button-container">
+                <a href="https://github.com/Niebudekp/Password-Generator"><i class="bx bx-link-external"></i></a>
+                <a href="https://niebudekp.github.io/Password-Generator/" class="demo-button">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="port-box mix react">
+            <div class="port-image">
+              <img src="images/rickandmorty.png" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Rick and Morty Characters</h3>
+              <p>
+                "Rick and Morty API" is a fun and interactive application that simulates, as the only one from the popular animated series "Rick and Morty", responding to API requests.
+              </p>
+              <div class="button-container">
+                <a href="https://github.com/Niebudekp/rick-and-morty-characters"><i class="bx bx-link-external"></i></a>
+                <a href="https://csb-wqx9cp-hx92empsw-niebudekp.vercel.app/" class="demo-button">Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <p>Copyright &copy; 2023 by Niebudek || All Right Reserved.</p>
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
+    <script src="mixitup.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
